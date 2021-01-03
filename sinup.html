@@ -1,0 +1,68 @@
+< html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+<style>
+    .main{
+        margin-top: 8%;
+    }
+</style>
+<script src="bank.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="main">           
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8"><h1>Sin up</h1></div>
+                <div class="col-2"></div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputname" class="form-label">Name</label>
+                <input type="text" class="form-control" id="pwd" onclick="Bank.sinup()">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputnumber" class="form-label">Account number</label>
+                <input type="text" class="form-control" id="pwd" onclick="Bank.sinup()">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputnumber" class="form-label">Mobile</label>
+                <input type="text" class="form-control" id="pwd" onclick="Bank.sinup()">
+            </div>
+                      
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">UserName</label>
+                <input type="text" class="form-control" id="uname" aria-describedby="emailHelp" onclick="Bank.sinup()">
+               <label for="" id="ulabel"></label>     
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label" >Password</label>
+                <input type="password" class="form-control" id="pwd" onclick="Bank.sinup()">
+            </div>
+           
+            <button type="button" class="btn btn-primary" onclick="Bank.sinup()">Create account</button>
+            <p id="ptext"></p>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
